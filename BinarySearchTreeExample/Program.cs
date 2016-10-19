@@ -12,13 +12,13 @@ namespace BinarySearchTreeExample
         public static List<int> arr = new List<int>() { 1, 20, 3, 0, -5, 1000, 400, -30, 0, -30, 1 };
         static void Main(string[] args)
         {
-            BinaryTree binaryTree = new BinaryTree();           
-            binaryTree.BuildTree(arr);
-            binaryTree.SearchTree(binaryTree.RootNode, 1000);
+            //BinaryTree binaryTree = new BinaryTree();           
+            //binaryTree.BuildTree(arr);
+            //binaryTree.SearchTree(binaryTree.RootNode, 1000);
             //binaryTree.PrintTree(binaryTree.RootNode, arr);
             //binaryTree.FindMin(binaryTree.RootNode);
-            binaryTree.DeleteNode(arr, 3);
-            binaryTree.DeleteNode(arr, 1000);
+            //binaryTree.DeleteNode(arr, 3);
+            //binaryTree.DeleteNode(arr, 1000);
             Console.Read();
         }
     }
